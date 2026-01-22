@@ -1,4 +1,5 @@
-package Date_2026_01_22;
+import java.util.Scanner;
+
 
 public class Main {
     public static void main(String[] args) {
