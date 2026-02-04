@@ -8,11 +8,11 @@ public class Main {
             int num = sc.nextInt();
 
             if (num < 25) {
-                System.out.print("Higher");
+                System.out.println("Higher");
             } else if (num > 25) {
-                System.out.print("Lower");
+                System.out.println("Lower");
             } else {
-                System.out.print("Good");
+                System.out.println("Good");
                 break;
             }
         }
