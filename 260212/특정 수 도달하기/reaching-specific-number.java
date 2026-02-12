@@ -18,6 +18,6 @@ public class Main {
             cnt++;
         }
 
-        System.out.print(sum + " " + (sum / cnt));
+        System.out.printf(sum + " " + "%.1f", (sum / cnt));
     }
 }
