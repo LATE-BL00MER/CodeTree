@@ -2,7 +2,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         // Please write your code here.
-         Scanner sc = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
 
         int[] arr = new int[10];
         int sum = 0;
@@ -18,6 +18,6 @@ public class Main {
             cnt++;
         }
 
-        System.out.print(sum + " " + (double)(sum / cnt));
+        System.out.print(sum + " " + (sum / cnt));
     }
 }
